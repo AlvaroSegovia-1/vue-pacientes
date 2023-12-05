@@ -92,7 +92,7 @@ const eliminarPaciente = (id) => {
 
         <div class="md:w-1/2 md:h-screen overflow-y-scroll">
               <h3 class="font-black text-3xl text-center">Administra tus pacientes</h3>
-              <p class="text-lg mt-5 text-center mb-10  [outline:1px_solid]">
+              <p class="text-lg mt-5 text-center mb-10 outline outline-1">
         Información de  <span class="text-indigo-600 font-bold ">Pacientes</span>
     </p>
 

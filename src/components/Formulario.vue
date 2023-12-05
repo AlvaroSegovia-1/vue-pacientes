@@ -66,7 +66,7 @@
 <template>
 <div class="md:w-1/2">
     <h2 class="font-black text-3xl text-center">Seguimiento Pacientes</h2>
-    <p class="text-lg mt-5 text-center mb-10  [outline:1px_solid]">
+    <p class="text-lg mt-5 text-center mb-10 ">
         Añade Pacientes y <span class="text-indigo-600 font-bold ">Adminístralos</span>
     </p>
     <Alerta
@@ -175,4 +175,5 @@
 <style>
 /* [border:1px_solid_#000] */
 /* bg-[#FA8072]  */
+/* [outline:1px_solid] */
 </style>
