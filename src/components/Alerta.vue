@@ -1,5 +1,6 @@
 <script setup>
     import {computed} from 'vue'
+    
     const props = defineProps({
         alerta: {
             type: Object,

@@ -40,9 +40,17 @@
 
     const validar = () => {
         //console.log(Object.values(paciente))
-        if(Object.values(props).includes('')){
+        if(Object.values(props).includes('')){  
+                
             alerta.mensaje = 'Todos los campos son obligatorios'
             alerta.tipo = 'error'
+
+            setTimeout(()=>{
+                Object.assign(alerta, {
+                tipo: '',
+                mensaje: ''
+                })
+            },2000)
             return
         }
 
@@ -92,6 +100,7 @@
                 :value="nombre"
                 @input="$emit('update:nombre', $event.target.value)"
             />
+            <!-- v-model="nombre" -->
         </div>
 
         <div class="mb-5">
